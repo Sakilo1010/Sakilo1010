@@ -1,12 +1,34 @@
-- 👋 Hi, I’m @Sakilo1010
-- 👀 I’m interested in ... anything crypto promoting 
-- 🌱 I’m currently learning ... How to manage my own project. 
-- 💞️ I’m looking to collaborate on ... Telegram 
-- 📫 How to reach me ... email sakilosamson104@gmail.com
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-Sakilo1010/Sakilo1010 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+{
+  "name": "snipex-pro",
+  "version": "3.0.0",
+  "description": "Ultimate Solana Telegram Trading Bot - Comprehensive Merged Version",
+  "main": "snipe.js",
+  "scripts": {
+    "start": "node snipe.js"
+  },
+  "keywords": [
+    "solana",
+    "telegram-bot",
+    "trading-bot",
+    "jupiter-dex"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.6",
+    "axios": "^1.7.7",
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "ed25519-hd-key": "^1.3.0",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0",
+    "node-cache": "^5.1.2",
+    "telegraf": "^4.16.3",
+    "uuid": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
